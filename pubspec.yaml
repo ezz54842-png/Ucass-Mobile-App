@@ -1,0 +1,18 @@
+name: ucas_services
+version: 2.0.0+2
+publish_to: 'none'
+description: تطبيق خدمات الكلية الجامعية للعلوم التطبيقية للطلبة والمدرسين والموظفين
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ucas_logo.png
